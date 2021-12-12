@@ -26,3 +26,9 @@
     right: 10px;
   }
 }
+.App-bookmarks-list {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 12px;
+  font-weight: 400;
+}

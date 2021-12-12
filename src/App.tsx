@@ -10,6 +10,9 @@ function App() {
           +
         </button>
       </header>
+      <main className="App-bookmarks-list">
+        Add a bookmark first.
+      </main>
     </div>
   );
 }
