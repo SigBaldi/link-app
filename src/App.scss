@@ -1,0 +1,23 @@
+@import-normalize;  /* Create-React-App wau to bring in normalize.css styles */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&display=swap');
+
+.App {
+  height: 100vh;
+  width: 100%;
+  background-color: #708090;
+  font-family: 'Archivo', sans-serif;
+}
+.App-Header {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  padding: 10px 12px;
+  border-bottom: 3px outset grey;
+  flex-direction: row;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.add-link-button {
+  height: 50px;
+  width: 50px;
+}
